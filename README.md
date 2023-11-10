@@ -12,7 +12,7 @@ Multiple I/O requests may arrive by different processes and only one I/O request
 Two or more request may be far from each other so can result in greater disk head movement. Hard drives are one of the slowest parts of the computer system and thus need to be accessed in an efficient manner
 
 FCFS is the simplest of all the Disk Scheduling Algorithms. In FCFS, the requests are addressed in the order they arrive in the disk queue.
-PROGRAM:
+## PROGRAM:
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -36,14 +36,15 @@ return 0;
 }
 ```
 
-OUTPUT:
+## OUTPUT:
 
 ![278928873-2226003d-f558-4f96-ba2c-e7fcefc36a98](https://github.com/MIRUDHULA-DHANARAJ/OS-EX.11-IMPLEMENTATION-OF-DISK-SCHEDULING-ALGORITHMS/assets/94828147/2a7d484d-63e3-4746-80d4-e7b9fcf49ca1)
 
-RESULT:
+## RESULT:
 
 Thus the implementation of the program for first come first serve disc scheduling has been successfully executed.
-## SHORTEST SEEK TIME FIRST
+
+### SHORTEST SEEK TIME FIRST
 ## AIM:
 To write a program for the first come first serve method of disc scheduling.
 
@@ -95,7 +96,7 @@ return 0;
 ## RESULT:
 Thus the implementation of the program for shortest seek time first disc scheduling has been successfully executed.
 
-## SCAN
+### SCAN
 ## AIM:
 To write a program for the first come first serve method of disc scheduling.
 ## DESCRIPTION:
